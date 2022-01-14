@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+body, html{
+    box-sizing: border-box;
+    background: url('./images/windF.gif');
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+section {
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 60vh;
+    text-align: center;
+}
+.hello img {
+    max-width: 100%;
+}
+.hello h2{
+    font-size: 2rem;
+    opacity: 0.6;
+}
+.hello p {
+    font-size: 1.6rem;
+}
